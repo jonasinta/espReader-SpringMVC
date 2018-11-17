@@ -1,0 +1,35 @@
+@charset "UTF-8";
+div.fixed {
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
+    border: 1px solid #3465a4;
+    background-color: LightSteelBlue;
+} 
+body {background-color: coral;}
+
+table#t01 tr:nth-child(even) {
+    background-color: #f2d9e5;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #ffe680;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+select {
+    font-size: 34px;
+    border-radius: 0;
+    border: none;
+    background: transparent;
+    width: 380px;
+    overflow: hidden;
+    padding-top: 15px;
+    height: 70px;
+    text-indent: 10px;
+    color: #ffffff;
+    -webkit-appearance: none;
+}
+}
