@@ -5,7 +5,7 @@ import java.util.Date;
 public class esp_chipId_Table_DataClass {
 private Integer id;
 private String chipid;
-	private String chip_nickname;
+private String chip_nickname;
 private Date create_time;
 private Integer fkey_userid;
 private Object img;

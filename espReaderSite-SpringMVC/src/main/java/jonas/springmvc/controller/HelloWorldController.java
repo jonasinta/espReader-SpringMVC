@@ -20,16 +20,16 @@ import jonas.springmvc.controller.modelStuff.esp_chipId_Table_DataClass;
 import jonas.springmvc.controller.modelStuff.esp_chip_Table_DataClass;
  
 @Controller
-@RequestMapping("/")
+@RequestMapping("/selectChipId")
 public class HelloWorldController {
  
     @Autowired
     private DaoForEspAccess contactDAO; 
     
     Logger logger = Logger.getLogger(this.getClass().getName());
-	@RequestMapping(value="/", method = RequestMethod.GET)
+	@RequestMapping(value="/selectChipId", method = RequestMethod.GET)
     public ModelAndView sayHello(HttpSession session) throws ParseException {
-		logger.info("inside /" );
+		logger.info("inside /selectChipId" );
 		int userId = 1;
 		ModelAndView modelNview = new ModelAndView("selectChip");
 		List<esp_chipId_Table_DataClass> theChipList = contactDAO.getInstance_chipid(userId);

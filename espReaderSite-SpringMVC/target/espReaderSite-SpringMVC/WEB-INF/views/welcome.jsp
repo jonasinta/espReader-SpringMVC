@@ -14,6 +14,7 @@
 </head>
 <body>
 
+var="greeting"> ${greeting}
  <c:forEach items="${tableData}" var="listLine"> ${listLine.timestamp} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${listLine.bat_serviceV} <br>
  
  </c:forEach>  
