@@ -62,7 +62,7 @@ public class DaoForEspAccess {
 		}
 		   
 		   /** 
-		      * This is the method to return the chipid as String by passing an integer
+		      * This is the method to return the chipids as Strings in a List by passing an integer
 		      * of user_id
 		      * "select chipid from chipid where fkey_userid=?"		   */
 		   public List<esp_chipId_Table_DataClass> getInstance_chipid(int user_id) {
