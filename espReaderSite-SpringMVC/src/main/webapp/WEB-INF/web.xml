@@ -7,6 +7,7 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
  
  <display-name>Spring4MVCHelloWorldDemoWemoZemo Web Application</display-name>
  
+ 
  <servlet>
     <servlet-name>dispatcher</servlet-name>
     <servlet-class>
@@ -26,4 +27,5 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
  <welcome-file-list>
     <welcome-file>welcome.htm</welcome-file>
 </welcome-file-list>
+
 </web-app>
